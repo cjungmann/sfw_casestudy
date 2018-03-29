@@ -1,0 +1,9 @@
+$database       : CaseStudy
+$xml-stylesheet : default.xsl
+$default-mode   : export
+
+export
+   procedure : App_Contacts_Export
+   type      : export
+   filename  : contacts.ods
+
