@@ -10,6 +10,11 @@ list
       type  : add
       label : Create Contact
       task  : contacts.srm?create
+   # The following added as directed in the Exporting Data guide:
+   button
+      type  : jump
+      label : Export Contacts
+      url   : export_contacts.srm
 
 create
    type        : form-new
