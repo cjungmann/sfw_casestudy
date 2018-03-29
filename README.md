@@ -29,20 +29,22 @@ We assume that
 Download and install the case study repository.  Adjust the following `cd` instrutions to reflect
 your actual configuration if you do not put your web sites under */etc/www*.
 
-### Download Using GIT
+### Download and Extract the Application
+
+using git:
 ~~~sh
 cd /etc/www/
 sudo git https://github.com/cjungmann/sfw_casestudy.git casestudy
 ~~~
 
-### Download Zipped File
+without git:
 ~~~sh
 cd /etc/www/
 sudo wget https://github.com/cjungmann/sfw_casestudy/archive/master.zip
 sudo unzip -d casestudy master.zip
 ~~~
 
-### Continue Case Study Setup
+### Finish Case Study Installation
 
 If you are not using */etc/www* for web sites, you will need to edit the *casestudy.conf* file,
 updating the *DocumentRoot* instruction to point to the *site* directory in your case study
