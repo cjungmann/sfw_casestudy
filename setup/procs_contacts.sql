@@ -1,5 +1,3 @@
--- setup/procs_contacts.sql
-
 DELIMITER $$
 
 -- "L" part of L-CRUD
